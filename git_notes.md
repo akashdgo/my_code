@@ -1,17 +1,17 @@
 ## git steps 
 
-'
+```
 [akashdas@akash-mac github.com]$ cd my_code/
 [akashdas@akash-mac my_code (master)]$ git init
 [akashdas@akash-mac my_code (master)]$ cd add --all
 [akashdas@akash-mac my_code (master)]$ git commit -m "first commit"
 [akashdas@akash-mac my_code (master)]$ git remote add origin https://github.com/akashdgo/my_code.git
 [akashdas@akash-mac my_code (master)]$ git push -u origin my_code
-'
+```
 
 ### if the file test.md is deleted from the web
 
-'
+```
 [akashdas@akash-mac my_code (master)]$ git push -u origin master
 To https://github.com/akashdgo/my_code.git
  ! [rejected]        master -> master (fetch first)
@@ -52,4 +52,4 @@ Total 4 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To https://github.com/akashdgo/my_code.git
  + cd43f05...be21359 master -> master (forced update)
-'
+```
